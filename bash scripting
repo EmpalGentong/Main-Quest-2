@@ -1,0 +1,132 @@
+- to run a bash program use './'
+-----------------
+|   variable    |
+-----------------
+- variable is a temporary store for a piece of information
+- variable preceded by '$' sign
+- $1, $2, ...
+    The first, second, etc command line arguments to the script.
+- variable=value
+    To set a value for a variable. Remember, no spaces on either side of =
+- Quotes " '
+    Double will do variable substitution, single will not.
+- variable=$( command )
+    Save the output of a command into a variable
+- export var1
+    Make the variable var1 available to child processes.
+
+----------------
+|  User Input  |
+----------------
+
+- to input we use " read <var name>  "
+- we can add -p or -s option
+- "-p" mean allow to specify a prompt
+- "-s" mean allow to silent the input
+- we can read more than 1 var in single lines
+- we can use ' STDIN ' to input from file
+
+
+----------------
+|  Arithmetic  |
+----------------
+
+- let is a builtin function of Bash that allows us to do simple arithmetic.
+- example " let <arithmetic expression> "
+- expr is similar to let except instead of saving the result to a variable it instead prints the answer
+- example " expr item1 operator item2 "
+- we can use " $(( expression )) " to add expression to a variable
+- example " varname = $(( 1 + 2 ))
+- twe can use " ${#varname} " to know length of variabel
+
+-------------------
+|  If Statements  |
+-------------------
+
+- we can use
+ ----------------------------
+ |if [ <some test> ]        |    
+ |  then                    |
+ |      <commands>          |
+ |else if [ <some test> ]   |
+ |  then                    |
+ |      <commands>          |  
+ |else                      |
+ |      <commands>          |
+ |fi                        |
+ |--------------------------|
+    to express if else statements
+
+- case statements
+   
+   case <variable> in
+        <pattern 1>)
+            <commands>
+            ;;
+        <pattern 2>)
+            <other commands>
+            ;;
+   esac
+   
+
+-----------
+|  LOOPS  |
+-----------
+
+      # WHILE LOOPS
+  - expression example :
+    
+    while [ <some test> ]
+        do
+            <commands>
+        done
+
+      # UNTIL LOOPS
+  - expression example :
+  
+    until [ <some test> ]
+        do
+            <commands>
+        done
+        
+        # FOR LOOPS
+  - expression example :
+  
+    for var in <list>
+        do
+            <commands>
+        done
+        
+- we can controll loops with "break" and "continue"
+- The break statement tells Bash to leave the loop straight away
+- The continue statement tells Bash to stop running through this iteration of the loop and begin the next iteration. 
+
+
+
+---------------
+|  FUNCTIONS  |
+---------------
+
+
+- Functions in Bash Scripting are a great way to reuse code.
+- we can use :
+        
+        function_name () {
+            <commands>
+        }
+        
+        or
+        
+        function function_name {
+            <commands>
+        }
+
+- return <value>
+    Exit the function with a return status of value.
+- local <name>=<value>
+    Create a local variable within a function.
+- command <command>
+    Run the command with that name as opposed to the function with the same name.
+
+
+
