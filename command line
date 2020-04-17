@@ -1,0 +1,33 @@
+pwd --> print working directory                     
+ls  --> list the content of directory               |Relative Path - a file or directory relative to current directory |
+cd  --> change directory                            |absolute path - file or directory location in relation the rootdir|
+file--> obtain information about what type of file  
+man <command> --> show command manual  page
+mkdir --> making a directory
+rmdir --> remove empty directory
+touch --> create blank file
+cp  --> copy file or directory
+mv  --> move file or directory
+rm  --> remove file
+vi  --> edit a file
+cat --> view a file 
+less --> view a large file
+chmod --> change permission on a file or directory  |r= read w= write e= execute                                 
+head --> view the first n line of data
+tail --> view the last n line of data
+sort --> Organise the data into order
+nl  --> print line number before data
+wc  --> print a count of lines, word, and characters
+cut --> cut data into fields and only display specified fields
+sed --> do a search and replace on the data
+uniq --> remove duplicate lines
+tac --> print data in reverse order
+egrep --> view lines of data which match a particular pattern       
+ 
+--------------------------------------------------------------------------------
+|    '>'  --> save output to a file                                            |
+|    '>>' --> append output to a file                                          |
+|    '<'  --> read input from a file                                           |
+|    '2>' --> redirect error messages                                          |
+|    '|'  --> send output from one program as input to another program         |
+--------------------------------------------------------------------------------    
