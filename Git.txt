@@ -30,3 +30,11 @@
 ----------------------
 
 - Branch dilakukan ketika melakukan eksperimen yang tidak ingin langsung diimplementasikan pada branch master
+
+
+---------------
+|   Forking   |
+---------------
+
+- Forking adalah membuat duplikat dari repo orang lain
+- forking berbeda dengan clone
