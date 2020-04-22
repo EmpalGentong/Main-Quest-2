@@ -1,0 +1,25 @@
+------------------
+|  Apa itu Git?  |
+------------------
+- Git adalah sesuatu tentang version control system
+- VCS adalah sistem yang mengelola perubahan dari seuatu dokumen
+- VCS adalah sistem yang menyimpan rekaman dari sebuah perubahan pada source code
+- GIT adalah sebuah VCS terdistribusi untuk mengelola perubahan file di dalam folder
+- Git menyimpan perubahan file menggunakan serangkaian "COMMIT"
+- Commit adalah serangkaian perubaha yang berisi detail setiap perubahan
+- percabaangan dari commit disebut "branch"
+- branch yang menyatu dengan jalur perubahan lain disebut "Merge"
+
+
+---------------------
+|  Apa itu Github?  |
+---------------------
+
+- Github adalah layanan cloud untuk menyimpan dan mengelola project / repo GIT
+
+---------------------
+|                   |
+---------------------
+
+- dengan menyatukan fungsi dari GIT dan GITHUB kita bisa mengirim atau mengambil project dari GIT dan Github
+- mengirim commit ke Github dari Git local diebut "push" sebaliknya disebut "pull"
