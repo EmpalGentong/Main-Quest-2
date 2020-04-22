@@ -23,3 +23,10 @@
 
 - dengan menyatukan fungsi dari GIT dan GITHUB kita bisa mengirim atau mengambil project dari GIT dan Github
 - mengirim commit ke Github dari Git local diebut "push" sebaliknya disebut "pull"
+
+
+----------------------
+|  Branch di github  |
+----------------------
+
+- Branch dilakukan ketika melakukan eksperimen yang tidak ingin langsung diimplementasikan pada branch master
